@@ -1,5 +1,4 @@
 import { useEffect, useReducer } from 'react';
-import { todoReducer } from './todoReducer';
 
 const initialState = [];
 const init = () => JSON.parse(localStorage.getItem('todos')) || [];
